@@ -8,3 +8,11 @@ compress("aaa") = a3
 compress("aaabbb") = a3b3
 compress("aaabccc") = a3b1c3
 */
+
+public String compress(String s) {
+  String out = "";
+  int sum = 1;
+  for (int i = 0; i < s.length() - 1; i++){
+    
+  }
+}

@@ -21,4 +21,7 @@ public String compress(String s) {
             out = out + s.charAt(i) + sum;
             sum = 1;
         }
+    }
+    out = out _ s.charAt(s.length() - 1) + sum;
+    return out.length() < s.length() ? out : s;
 }

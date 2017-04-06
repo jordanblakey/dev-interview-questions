@@ -5,11 +5,12 @@ e.g.
 integerToRoman(1) = "I"
 integerToRoman(4) = "IV"
 integerToRoman(49) = "XLIX"
-*/
 
 value= 49
 numeral= ""
 i= 0
+*/
+
 
 private static final String[] numerals =
   new String[]{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"}

@@ -2,13 +2,13 @@
 Given a  stack, sort the elements in the stack using no more than one additional stack.
 Can sort, and reverse, with two stacks and a temp variable.
 
-temp =
+temp = 0
 
-   1
-   2
-   3
-   4
-_  _
+    1
+    2
+    3
+    4
+_   _
 
 */
 

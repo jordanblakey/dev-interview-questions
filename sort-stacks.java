@@ -22,7 +22,7 @@ public Stack<Integer> sortStack(Stack<Integer> stack) {
     while (!newStack.isEmpty() && temp > newStack.peek()) {
       stack.push(newStack.pop());
     }
-
     newStack.push(temp);
   }
+  return newStack;
 }
